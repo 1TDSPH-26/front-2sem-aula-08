@@ -11,8 +11,12 @@ export default function Conteudo(){
 
         <section>
             <h2>Produtos</h2>
-            <Card nomeProduto= "Produto 1" preco = "100" img="https://placehold.co/100x100" descricao = "place holder"/>
-            <Card nomeProduto= "Produto 2" preco = "50"img="https://placehold.co/100x100"descricao = "place holder"/>
+            <Card nomeProduto= "Produto 1" 
+            preco = "100" img="https://placehold.co/100x100" descricao = "place holder"/>
+            <Card nomeProduto= "Produto 2" 
+            preco = "50"
+            img="https://placehold.co/100x100"
+            descricao = "place holder"/>
             <Card nomeProduto= "Produto 3" preco = "10"img="https://placehold.co/100x100"descricao = "place holder"/>
             
 
