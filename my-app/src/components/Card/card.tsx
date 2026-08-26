@@ -1,17 +1,23 @@
+
+import "./Card.css"
+
 type TipoProps = {
     nomeProduto: string;
-    preco: string;
-    img: string
+    preco: string | number;
+    img: string;
+    descricao: string;
 }
 
 
-export default function Card({nomeProduto, preco}:TipoProps){
+export default function Card({nomeProduto, preco, img, descricao}:TipoProps){
     return(
-        <div>
-            <img src="img" alt="{descriçao}" />
+        <div className="card">
+            <img src={img} alt={descricao} />
             <h2>Card</h2>
             <p>Nome Produto: {nomeProduto}</p>
             <p>Preço: {preco}</p>
+
         </div>
-    )
+
+    );
 }
