@@ -10,7 +10,3 @@ export default function Cabecalho(){
     );
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 2604501ec33fbf686e6601c87549ec5f3afd5630
