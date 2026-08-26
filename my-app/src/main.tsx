@@ -12,6 +12,7 @@ import Produtos from './routes/Produtos/index.tsx';
 import Home from './routes/Home/index.tsx';
 import EditarProduto from './routes/EditarProdutos/index.tsx';
 import Error from './routes/Error/index.tsx';
+import Conteudo from './routes/Conteudo/index.tsx';
 
 
 //
@@ -33,6 +34,9 @@ const router = createBrowserRouter(
  {
  path: '/editar-produto/:id',
  element: <EditarProduto />,
+ },{
+ path: '/conteudo',
+ element: <Conteudo/>
  },
  ],
  },
